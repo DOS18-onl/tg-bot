@@ -1,0 +1,7 @@
+services:
+  bot:
+    build: .
+    environment:
+      - BOT_TOKEN=1623985892:AAHB__S_TE0CMEfDPQjE0PmJktB4WecVzAA
+    ports:
+      - 8081:8080
